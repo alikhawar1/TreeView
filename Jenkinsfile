@@ -10,7 +10,7 @@ pipeline {
       stage('TreeVeiw-build') { 
         steps {
               sh 'chmod +x build.gradle'
-            sh "./build.gradle"    
+            sh "./library/build.gradle"    
         }
       }
    }
