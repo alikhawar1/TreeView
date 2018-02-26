@@ -9,7 +9,7 @@ pipeline {
    stages {
       stage('TreeVeiw-build') { 
         steps {
-            sh "/build.gradle"    
+            sh "./build.gradle"    
         }
       }
    }
