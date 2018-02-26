@@ -2,8 +2,8 @@ pipeline {
    agent any 
   tools { 
      gradle "gradle-4.0"
-        maven 'Maven 3.3.9' 
-        jdk 'jdk8' 
+        maven 'maven 3.3.9' 
+        jdk 'jdk 9.0.4' 
     }
    
    stages {
