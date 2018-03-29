@@ -9,8 +9,8 @@ pipeline {
    stages {
       stage('TreeVeiw-build') { 
         steps {
-              sh 'chmod +x build.gradle'
-            sh './build.gradle classes'    
+              sh 'chmod +x build'
+            sh 'mvn install'    
         }
       }
    }
