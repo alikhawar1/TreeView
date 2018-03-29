@@ -9,7 +9,7 @@ pipeline {
    stages {
       stage('TreeVeiw-build') { 
         steps {
-              sh 'chmod +x build'
+              //sh 'chmod +x build'
             sh 'mvn install'    
         }
       }
